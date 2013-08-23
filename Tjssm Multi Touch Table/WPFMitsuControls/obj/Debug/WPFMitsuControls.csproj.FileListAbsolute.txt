@@ -1,0 +1,30 @@
+C:\Users\Administrator\Desktop\breeze_1.0.5\BreezeWPF_1.0.5\WPFMitsuControls\bin\Debug\WPFMitsuControls.dll
+C:\Users\Administrator\Desktop\breeze_1.0.5\BreezeWPF_1.0.5\WPFMitsuControls\bin\Debug\WPFMitsuControls.pdb
+C:\Users\Administrator\Desktop\breeze_1.0.5\BreezeWPF_1.0.5\WPFMitsuControls\obj\Debug\WPFMitsuControls.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\breeze_1.0.5\BreezeWPF_1.0.5\WPFMitsuControls\obj\Debug\BookPage.baml
+C:\Users\Administrator\Desktop\breeze_1.0.5\BreezeWPF_1.0.5\WPFMitsuControls\obj\Debug\Book.g.cs
+C:\Users\Administrator\Desktop\breeze_1.0.5\BreezeWPF_1.0.5\WPFMitsuControls\obj\Debug\BookPage.g.cs
+C:\Users\Administrator\Desktop\breeze_1.0.5\BreezeWPF_1.0.5\WPFMitsuControls\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Administrator\Desktop\breeze_1.0.5\BreezeWPF_1.0.5\WPFMitsuControls\obj\Debug\WPFMitsuControls_MarkupCompile.cache
+C:\Users\Administrator\Desktop\breeze_1.0.5\BreezeWPF_1.0.5\WPFMitsuControls\obj\Debug\WPFMitsuControls_MarkupCompile.lref
+C:\Users\Administrator\Desktop\breeze_1.0.5\BreezeWPF_1.0.5\WPFMitsuControls\obj\Debug\Book.baml
+C:\Users\Administrator\Desktop\breeze_1.0.5\BreezeWPF_1.0.5\WPFMitsuControls\obj\Debug\WPFMitsuControls.g.resources
+C:\Users\Administrator\Desktop\breeze_1.0.5\BreezeWPF_1.0.5\WPFMitsuControls\obj\Debug\WPFMitsuControls.Properties.Resources.resources
+C:\Users\Administrator\Desktop\breeze_1.0.5\BreezeWPF_1.0.5\WPFMitsuControls\obj\Debug\WPFMitsuControls.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\breeze_1.0.5\BreezeWPF_1.0.5\WPFMitsuControls\obj\Debug\WPFMitsuControls.dll
+C:\Users\Administrator\Desktop\breeze_1.0.5\BreezeWPF_1.0.5\WPFMitsuControls\obj\Debug\WPFMitsuControls.pdb
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\WPFMitsuControls\bin\Debug\WPFMitsuControls.dll
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\WPFMitsuControls\bin\Debug\WPFMitsuControls.pdb
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\WPFMitsuControls\obj\Debug\WPFMitsuControls.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\WPFMitsuControls\obj\Debug\BookPage.baml
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\WPFMitsuControls\obj\Debug\Book.g.cs
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\WPFMitsuControls\obj\Debug\BookPage.g.cs
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\WPFMitsuControls\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\WPFMitsuControls\obj\Debug\WPFMitsuControls_MarkupCompile.cache
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\WPFMitsuControls\obj\Debug\WPFMitsuControls_MarkupCompile.lref
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\WPFMitsuControls\obj\Debug\Book.baml
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\WPFMitsuControls\obj\Debug\WPFMitsuControls.g.resources
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\WPFMitsuControls\obj\Debug\WPFMitsuControls.Properties.Resources.resources
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\WPFMitsuControls\obj\Debug\WPFMitsuControls.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\WPFMitsuControls\obj\Debug\WPFMitsuControls.dll
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\WPFMitsuControls\obj\Debug\WPFMitsuControls.pdb
