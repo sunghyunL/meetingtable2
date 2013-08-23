@@ -67,9 +67,7 @@ namespace Tjssm_Multi_Touch_Table
         //--------------------------------------------*
         //시작 : 변수 선언
         //--------------------------------------------*
-        private System.Windows.Point firstPoint, secondPoint;
         Window window;
-        Window1 winClass;
         Canvas MainElement = new Canvas();
 
         //--------------------------------------------*

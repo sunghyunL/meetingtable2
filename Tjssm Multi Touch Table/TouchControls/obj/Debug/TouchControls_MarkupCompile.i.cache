@@ -4,7 +4,7 @@
 library
 C#
 .cs
-C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\TouchControls\obj\Debug\
+C:\Git\Tjssm Multi Touch Table\TouchControls\obj\Debug\
 TouchControls
 none
 false
@@ -13,7 +13,7 @@ DEBUG;TRACE
 16412081500
 2-1138384174
 43-586881982
-27-783848314
+271639171508
 bg_menu.xaml;Contacts\ContactsBox.xaml;Contacts\ContactsObject.xaml;Viewer\DocViewer.xaml;FileBox3.xaml;FileBoxItem.xaml;FileBoxObject.xaml;Viewer\ImageView.xaml;PhoneMenu.xaml;Photo.xaml;Viewer\PptViewer.xaml;RssList.xaml;SmartArea.xaml;VideoControl.xaml;VideoPlayer.xaml;Viewer\Web.xaml;
 
 False
