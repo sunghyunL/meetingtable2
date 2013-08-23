@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TextView 
+        android:id="@+id/textview_item"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="test"
+        />
+
+        <FrameLayout 
+        	android:layout_width="match_parent"
+       		android:layout_height="match_parent"
+            >
+            <GridView
+            android:id="@+id/gridview_document"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:numColumns="4"
+            />
+                   	    <AbsoluteLayout
+        android:id="@+id/document_scroll_image_layout_grid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/document_scroll_image_grid"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            android:src="@drawable/ic_launcher" 
+            android:visibility="invisible"
+            />
+    </AbsoluteLayout>
+        </FrameLayout>
+
+</LinearLayout>
