@@ -1,0 +1,42 @@
+﻿빌드 시작: 2013-08-23 오전 9:18:02
+     1>2 노드의 "C:\Users\Administrator\Desktop\창의과제\멀티터치테이블\서버\MultiTouchServer.ver2.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt AndroidAccepter.cpp CvControl.cpp Job.cpp Job_CaptureDisplay.cpp Job_ContactSendToAnd.cpp Job_RequestContacts.cpp Job_FileSendToAnd.cpp Job_FileSendToWPF.cpp Job_SavePresentation.cpp main.cpp ThreadPool.cpp Tokenizer.cpp WPFReceiver.cpp
+         WPFReceiver.cpp
+         Tokenizer.cpp
+         ThreadPool.cpp
+         main.cpp
+         Job_SavePresentation.cpp
+         Job_FileSendToWPF.cpp
+         Job_FileSendToAnd.cpp
+         Job_RequestContacts.cpp
+         Job_ContactSendToAnd.cpp
+         Job_CaptureDisplay.cpp
+     1>c:\users\administrator\desktop\창의과제\멀티터치테이블\서버\job_capturedisplay.cpp(230): warning C4244: '=' : 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>c:\users\administrator\desktop\창의과제\멀티터치테이블\서버\job_capturedisplay.cpp(300): warning C4244: '인수' : 'int'에서 'Gdiplus::REAL'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+         Job.cpp
+     1>c:\users\administrator\desktop\창의과제\멀티터치테이블\서버\job.cpp(35): warning C4101: 'ns' :참조되지 않은 지역 변수입니다.
+     1>c:\users\administrator\desktop\창의과제\멀티터치테이블\서버\job.cpp(35): warning C4101: 'addrsize' :참조되지 않은 지역 변수입니다.
+         CvControl.cpp
+         AndroidAccepter.cpp
+         코드를 생성하고 있습니다...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Administrator\Desktop\창의과제\멀티터치테이블\서버\Debug\MultiTouchServer.ver2.exe" /INCREMENTAL /NOLOGO gdiplus.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Administrator\Desktop\창의과제\멀티터치테이블\서버\Debug\MultiTouchServer.ver2.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Administrator\Desktop\창의과제\멀티터치테이블\서버\Debug\MultiTouchServer.ver2.lib" /MACHINE:X86 Debug\AndroidAccepter.obj
+         Debug\CvControl.obj
+         Debug\Job.obj
+         Debug\Job_CaptureDisplay.obj
+         Debug\Job_ContactSendToAnd.obj
+         Debug\Job_RequestContacts.obj
+         Debug\Job_FileSendToAnd.obj
+         Debug\Job_FileSendToWPF.obj
+         Debug\Job_SavePresentation.obj
+         Debug\main.obj
+         Debug\ThreadPool.obj
+         Debug\Tokenizer.obj
+         Debug\WPFReceiver.obj
+         MultiTouchServer.ver2.vcxproj -> C:\Users\Administrator\Desktop\창의과제\멀티터치테이블\서버\Debug\MultiTouchServer.ver2.exe
+     1>"C:\Users\Administrator\Desktop\창의과제\멀티터치테이블\서버\MultiTouchServer.ver2.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:13.77
