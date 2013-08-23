@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     >
+
+
+    <ImageView 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/ImageView_captureImage"
+          />   
+                    	<ImageView 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/imageView_Frontcaptureimage"
+    android:padding="10dp"
+ 	 android:visibility="invisible"
+             android:background="#55555555"
+          android:layout_margin="10dp"
+                android:layout_gravity="center"
+    
+        />
+	<LinearLayout 
+		android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+         android:layout_gravity="bottom|center"
+	   >
+    <Button 
+        android:id="@+id/Button_captureImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="메뉴"
+       
+        />
+    <SeekBar 
+        android:id="@+id/seekbar_captureimage"
+        android:layout_width="250dp"
+		android:layout_height="wrap_content"
+		android:max="365"
+		android:layout_marginLeft="20dp"
+        />
+	</LinearLayout>
+
+</FrameLayout>

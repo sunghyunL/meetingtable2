@@ -39,7 +39,7 @@ void Job_FileSendToWPF::job_start(){
 		string forderName="c:/Touchtable/"+info.ipAdd;
 		::CreateDirectory(forderName.c_str(),NULL);
 
-		string forderName2="c:/Touchtable/"+info.ipAdd+"/"+"mobile";
+		string forderName2="c:/Touchtable/"+info.ipAdd+"/"+"Mobile";
 		::CreateDirectory(forderName2.c_str(),NULL);
 
 		int filesize=atoi(filevec.at(2).c_str());

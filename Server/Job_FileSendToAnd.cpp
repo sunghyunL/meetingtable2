@@ -33,8 +33,8 @@ void Job_FileSendToAnd::job_start(){
 		
 		string ipAddress=vec.at(2);
 
-		string fileName1="c:/Touchtable/"+vec.at(2)+"/other/"+vec.at(1);
-		string fileName2="c:/Touchtable/"+vec.at(2)+"/mobile/"+vec.at(1);
+		string fileName1="c:/Touchtable/"+vec.at(2)+"/MyBox/"+vec.at(1);
+		string fileName2="c:/Touchtable/"+vec.at(2)+"/Mobile/"+vec.at(1);
 		
 		string sendStr="FILESENDTOAND&";
 

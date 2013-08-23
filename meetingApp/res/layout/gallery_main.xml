@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <GridView
+            android:id="@+id/photosender_grid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:numColumns="3"
+            android:stretchMode="columnWidth" />
+    </LinearLayout>
+
+    <AbsoluteLayout
+        android:id="@+id/scroll_image_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/scroll_image"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            android:alpha="0.7" 
+            android:visibility="invisible"
+            />
+    </AbsoluteLayout>
+
+        <ImageView
+        android:id="@+id/imageView_grid_main_arrow"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/arrowanim" 
+        android:visibility="invisible"
+        />
+</FrameLayout>
