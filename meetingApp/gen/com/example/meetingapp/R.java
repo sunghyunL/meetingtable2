@@ -36,8 +36,10 @@ public final class R {
     }
     public static final class id {
         public static final int Button_captureImage=0x7f0a0002;
+        public static final int Button_scan=0x7f0a0023;
         public static final int ImageView_captureImage=0x7f0a0000;
-        public static final int action_settings=0x7f0a0022;
+        public static final int ImageView_scan=0x7f0a0022;
+        public static final int action_settings=0x7f0a0024;
         public static final int big_image=0x7f0a0015;
         public static final int button_captureimage=0x7f0a001f;
         public static final int button_mainmenu=0x7f0a0021;
