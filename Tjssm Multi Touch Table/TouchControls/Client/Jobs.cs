@@ -12,6 +12,7 @@ using System.Windows.Controls;
 using System.Windows.Media;
 using TouchFramework.Events;
 using TouchFramework;
+using System.Windows.Threading;
 
 namespace TouchFramework.ControlHandlers.Client
 {
@@ -108,6 +109,11 @@ namespace TouchFramework.ControlHandlers.Client
           */
             if (state == 0)
             {
+
+                Dispatcher.Invoke(DispatcherPriority.Normal, new Action(delegate
+                {
+
+                }));
                 createSmartArea(ipAddress, new PointF(x, y), angle);
             }
             else if (state == 1)
