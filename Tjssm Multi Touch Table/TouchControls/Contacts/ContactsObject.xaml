@@ -3,13 +3,19 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-             mc:Ignorable="d" Height="84" Width="311">
+             mc:Ignorable="d" Height="66" Width="252.667">
     <Grid>
-        <Image x:Name="bt_contactsObj" HorizontalAlignment="Center" Height="67" VerticalAlignment="Center" Width="301" Source="/TouchControls;component/Resources/ContactsObject.png"/>
-        <Button x:Name="bt_img" Content="Button" HorizontalAlignment="Left" Height="64" Margin="10,10,0,0" VerticalAlignment="Top" Width="71" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" Opacity="0"/>
-        <TextBlock x:Name="TextName" HorizontalAlignment="Center" Height="29" Margin="91,16.5,10,38.5" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Center" Width="210" FontSize="20" Foreground="#FF3C3C3C"/>
-        <TextBlock x:Name="TextNumber" HorizontalAlignment="Center" Height="20" Margin="91,45.5,10,18.5" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Center" Width="210" Foreground="#FF878585" FontSize="14"/>
-        <Image x:Name="img_send" HorizontalAlignment="Left" Height="49" Margin="274,45.5,-21,-10.5" VerticalAlignment="Top" Width="58" Source="/TouchControls;component/Resources/Icon_send.png" Visibility="Hidden"/>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="9*"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Image x:Name="bt_contactsObj" HorizontalAlignment="Center" Height="54" VerticalAlignment="Center" Width="253" Source="/TouchControls;component/Resources/ContactsObject.png" Grid.Row="1" Margin="-1.334,0,1.334,0"/>
+        <Button x:Name="bt_img" Content="Button" HorizontalAlignment="Left" Height="54" VerticalAlignment="Top" Width="72.334" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" Opacity="0" Margin="-1.334,0,0,0" Grid.Row="1"/>
+        <TextBlock x:Name="TextName" HorizontalAlignment="Center" Height="24" Margin="76,6,15.667,24" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Center" Width="161.333" FontSize="16" Foreground="#FF3C3C3C" FontWeight="Bold" Grid.Row="1"/>
+        <TextBlock x:Name="TextNumber" HorizontalAlignment="Center" Height="20" Margin="76,30,15.667,4" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Center" Width="161.333" Foreground="#FF878585" FontSize="13" Grid.Row="1"/>
+        <Image x:Name="img_send" HorizontalAlignment="Left" Height="49" Margin="218.666,25.501,-23.666,-14.501" VerticalAlignment="Top" Width="58" Source="/TouchControls;component/Resources/Icon_send.png" Grid.RowSpan="2" Grid.Row="1" Visibility="Hidden"/>
+        <Image x:Name="bt_close" HorizontalAlignment="Left" Height="34" Margin="237.333,-7.499,-18.333,0" VerticalAlignment="Top" Width="34" Source="/TouchControls;component/Resources/imgView_bt2.png" Grid.RowSpan="2" Visibility="Hidden"/>
     </Grid>
-    
+
 </UserControl>

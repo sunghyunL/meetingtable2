@@ -8,12 +8,16 @@ namespace TouchFramework.ControlHandlers.Client
 {
     public class Start
     {
+        Thread t;
         public void start()
+        {         
+            t=new Thread(new ThreadStart(mmain));
+            t.Start();        
+        }
+
+        public void stop()
         {
-         
-            Thread t=new Thread(new ThreadStart(mmain));
-            t.Start();
-        
+            t.Abort();
         }
 
         public void mmain()

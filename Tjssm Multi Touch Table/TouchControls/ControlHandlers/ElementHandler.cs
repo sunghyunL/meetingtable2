@@ -37,6 +37,7 @@ using System.Windows.Controls;
 
 using TouchFramework.Helpers;
 using TouchFramework.Events;
+using TouchFramework.ControlHandlers.Contacts;
 
 namespace TouchFramework.ControlHandlers
 {
@@ -73,6 +74,14 @@ namespace TouchFramework.ControlHandlers
             else if (source is DocViewer)
             {
                 handler = new DocViewHandler() as ElementHandler;
+            }
+            else if (source is ContactsBox)
+            {
+                handler = new ContactsBoxHandler() as ElementHandler;
+            }
+            else if (source is ContactsObject)
+            {
+                handler = new ContactsObjectHandler() as ElementHandler;
             }
             else if (source is TextBox)
             {
@@ -173,6 +182,26 @@ namespace TouchFramework.ControlHandlers
                     }
 
                     s.documentviewWord.RaiseEvent(new RoutedEventArgs(MTEvents.ScrollEvent, Source));
+                }
+            }
+            else if (Source is ContactsBox)
+            {
+                ContactsBox s = Source as ContactsBox;
+
+                if (isListBox == true)
+                {
+                    // This sets it so that we scroll by pixels rather than by lines
+                    if (ScrollViewer.GetCanContentScroll(s.ContactslistBox)) ScrollViewer.SetCanContentScroll(s.ContactslistBox, false);
+
+                    // Find the scrollviewer and scroll it if there is one
+                    ScrollViewer scroll = s.ContactslistBox.FindChild<ScrollViewer>() as ScrollViewer;
+                    if (scroll != null)
+                    {
+                        scroll.ScrollToHorizontalOffset(scroll.HorizontalOffset + (x * -1));
+                        scroll.ScrollToVerticalOffset(scroll.VerticalOffset + (y * -1));
+                    }
+
+                    s.ContactslistBox.RaiseEvent(new RoutedEventArgs(MTEvents.ScrollEvent, Source));
                 }
             }
             else

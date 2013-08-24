@@ -67,8 +67,11 @@ namespace Tjssm_Multi_Touch_Table
         //--------------------------------------------*
         //시작 : 변수 선언
         //--------------------------------------------*
+        private System.Windows.Point firstPoint, secondPoint;
         Window window;
+        Window1 winClass;
         Canvas MainElement = new Canvas();
+        Start startThread = new Start();
 
         //--------------------------------------------*
         //TouchFrameWork 변수 선언
@@ -139,10 +142,9 @@ namespace Tjssm_Multi_Touch_Table
             window = this;  //윈도우 등록
             MainElement = canvas1;
 
-            Start start_ = new Start();
-            start_.start();
+            startThread.start();
 
-            Jobs.Instance.setInit(canvas1, this, framework);
+            Jobs.Instance.setInit(canvas1, this, framework, new SmartArea());
             
             
 
@@ -195,7 +197,6 @@ namespace Tjssm_Multi_Touch_Table
         {
             //Init SmartArea Control
             SmartArea smartArea = new SmartArea();
-            smartArea.setInit(MainElement, window, framework, _ip);
 
             ElementProperties prop = new ElementProperties();
             prop.ElementSupport.AddSupport(TouchFramework.TouchAction.Drag);
@@ -208,6 +209,8 @@ namespace Tjssm_Multi_Touch_Table
             smartAreaCont.userIP = _ip;
 
             MainElement.Children.Add(smartArea);
+            smartArea.setInit(MainElement, window, framework, smartAreaCont, _ip, angle);
+
             smartAreaCont.SetPosition(pt.X, pt.Y, angle, 1.0);
 
             SingleToneTrans.getInstance().addToArea(smartArea);
@@ -754,6 +757,7 @@ namespace Tjssm_Multi_Touch_Table
         {
             this.ClearAll();
             framework.Stop();
+            startThread.stop();
         }
     }
 }

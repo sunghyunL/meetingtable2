@@ -28,7 +28,7 @@
         <Image x:Name="bt1" HorizontalAlignment="Left" Height="63" Margin="0,1,0,0" VerticalAlignment="Top" Width="63" Source="/TouchControls;component/Resources/imgView_bt7.png"/>
         <Image x:Name="bt2" HorizontalAlignment="Left" Height="63" Margin="68,1,0,0" VerticalAlignment="Top" Width="63" Source="/TouchControls;component/Resources/imgView_bt6.png"/>
 
-        <Image x:Name="img_cloud" HorizontalAlignment="Center" Height="75" VerticalAlignment="Center" Width="75" Source="Resources/Icon_cloud.png" Margin="197.5,158.5,197.5,176.5" Grid.Row="1" Visibility="Hidden"/>
+        <Image x:Name="img_cloud" HorizontalAlignment="Center" Height="75" VerticalAlignment="Center" Width="75" Source="/TouchControls;component/Resources/Icon_cloud.png" Margin="197.5,158.5,197.5,176.5" Grid.Row="1" Visibility="Hidden"/>
     </Grid>
 
 </UserControl>

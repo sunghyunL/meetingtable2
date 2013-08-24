@@ -43,6 +43,8 @@ namespace TouchFramework.ControlHandlers.Client
         private Canvas main = new Canvas();
         public Window window;
         FrameworkControl framework;
+        private SmartArea _sArea;
+        private bool requestComplete = false;
 
         //싱글톤
         public static Jobs Instance
@@ -58,18 +60,48 @@ namespace TouchFramework.ControlHandlers.Client
 
         private Jobs() { }
 
-        public void setInit(Canvas _main, Window target, FrameworkControl fw)
+        public void setInit(Canvas _main, Window target, FrameworkControl fw, SmartArea s)
         {
             main = _main;
             window = target;
             framework = fw;
+            _sArea = s;
+        }
+
+        private delegate void createSmartAreaDelegate(string _ip, PointF pt, double angle);
+        private delegate void removeSmartAreaDelegate(string _ip);
+        private delegate void MTContDelegate(string _ip, float offsetX, float offsetY, double angle);
+
+        private void BeginInvokeCreate(SmartArea s, string _ip, PointF pt, double angle)
+        {
+            if (s.Dispatcher.CheckAccess())
+                createSmartArea(_ip, pt, angle);
+            else
+                s.Dispatcher.BeginInvoke(new createSmartAreaDelegate(createSmartArea), _ip, pt, angle);
+
+        }
+
+        private void BeginInvokeRemove(SmartArea s, string _ip)
+        {
+            if (s.Dispatcher.CheckAccess())
+                removeSmartArea(_ip);
+            else
+                s.Dispatcher.BeginInvoke(new removeSmartAreaDelegate(removeSmartArea), _ip);
+
+        }
+
+        private void BeginInvokeCont(SmartArea s, string _ip, float offsetX, float offsetY, double angle)
+        {
+            if (s.Dispatcher.CheckAccess())
+                findContainer(_ip, offsetX, offsetY, angle);
+            else
+                s.Dispatcher.BeginInvoke(new MTContDelegate(findContainer), _ip, offsetX, offsetY, angle);
         }
 
         public void createSmartArea(string _ip, PointF pt, double angle)
         {
             //Init SmartArea Control
             SmartArea smartArea = new SmartArea();
-            smartArea.setInit(main, window, framework, _ip);
 
             ElementProperties prop = new ElementProperties();
             prop.ElementSupport.AddSupport(TouchFramework.TouchAction.Drag);
@@ -82,6 +114,8 @@ namespace TouchFramework.ControlHandlers.Client
             smartAreaCont.userIP = _ip;
 
             main.Children.Add(smartArea);
+            smartArea.setInit(main, window, framework, smartAreaCont, _ip, angle);
+
             smartAreaCont.SetPosition(pt.X, pt.Y, angle, 1.0);
 
             SingleToneTrans.getInstance().addToArea(smartArea);
@@ -92,15 +126,25 @@ namespace TouchFramework.ControlHandlers.Client
         {
             //Init SmartArea Control
             SmartArea smartArea = SingleToneTrans.getInstance().getArea(_ip);
-
-
-            SingleToneTrans.getInstance().addToArea(smartArea);
-            int _index = SingleToneTrans.getInstance().getAreaIndex(smartArea);
-            MTSmoothContainer cont = SingleToneTrans.getInstance().getIndexAtCont(_index);
+            MTSmoothContainer cont = SingleToneTrans.getInstance().getCont(_ip);
+            
+            SingleToneTrans.getInstance().removeArea(smartArea);
+            SingleToneTrans.getInstance().removeCont(cont);
 
             main.Children.Remove(smartArea);
             framework.UnregisterElement(cont.Id);
             cont.isRemoved = true;
+        }
+
+        public void findContainer(string ipAddress, float offsetX, float offsetY, double angle)
+        {
+            foreach (MTSmoothContainer s in SingleToneTrans.getInstance().contList)
+            {
+                if (s.userIP == ipAddress)
+                {
+                    s.SetPosition(offsetX, offsetY, angle, 1.0);
+                }
+            }
         }
 
         public void listen_adjust_Device_Coordinate(String ipAddress,int angle,int x,int y, int state)
@@ -109,26 +153,26 @@ namespace TouchFramework.ControlHandlers.Client
           */
             if (state == 0)
             {
+                BeginInvokeCreate(_sArea, ipAddress, new PointF(x, y), angle);
 
-                Dispatcher.Invoke(DispatcherPriority.Normal, new Action(delegate
-                {
-
-                }));
-                createSmartArea(ipAddress, new PointF(x, y), angle);
+                //createSmartArea(ipAddress, new PointF(x, y), angle);
             }
             else if (state == 1)
             {
-                foreach (MTSmoothContainer s in SingleToneTrans.getInstance().contList)
-                {
-                    if (s.userIP == ipAddress)
-                    {
-                        s.SetPosition(x, y, angle, 1.0);
-                    }
-                }
+                BeginInvokeCont(_sArea, ipAddress, x, y, angle);
+
+//                 foreach (MTSmoothContainer s in SingleToneTrans.getInstance().contList)
+//                 {
+//                     if (s.userIP == ipAddress)
+//                     {
+//                         //s.SetPosition(x, y, angle, 1.0);
+//                     }
+//                 }
             }
             else if (state == 2)
             {
-                removeSmartArea(ipAddress);
+                BeginInvokeRemove(_sArea, ipAddress);
+                //removeSmartArea(ipAddress);
             }
         }
 
@@ -157,6 +201,7 @@ namespace TouchFramework.ControlHandlers.Client
         public void listen_processContacts(ArrayList list)
         {/*TO DO:요청후에 callback형식으로 이 함수가 호출 된다*/
             arrList = list;
+            requestComplete = true;
             foreach (object o in list)
             {
                 ContactInfo info = (ContactInfo)o;
@@ -167,6 +212,10 @@ namespace TouchFramework.ControlHandlers.Client
 
         public ArrayList getList()
         {
+            while (requestComplete == false)
+            {
+
+            }
             return arrList;
         }
 

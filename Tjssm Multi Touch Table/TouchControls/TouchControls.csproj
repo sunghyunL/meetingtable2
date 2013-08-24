@@ -124,6 +124,8 @@
     <Compile Include="ControlHandlers\ImageViewHandler.cs" />
     <Compile Include="ControlHandlers\PptViewHandler.cs" />
     <Compile Include="ControlHandlers\DocViewHandler.cs" />
+    <Compile Include="ControlHandlers\ContactsBoxHandler.cs" />
+    <Compile Include="ControlHandlers\ContactsObjectHandler.cs" />
     <Compile Include="Viewer\DocViewer.xaml.cs">
       <DependentUpon>DocViewer.xaml</DependentUpon>
     </Compile>
@@ -178,6 +180,7 @@
   <ItemGroup>
     <Content Include="COPYING.LESSER.txt" />
     <Content Include="COPYING.txt" />
+    <Resource Include="Resources\smart_area_effect.png" />
     <Resource Include="Resources\Contacts.png" />
     <Resource Include="Resources\ContactsObject.png" />
     <Resource Include="Resources\Icon_cloud.png" />

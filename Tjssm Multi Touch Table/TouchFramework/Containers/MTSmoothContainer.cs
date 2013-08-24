@@ -38,6 +38,7 @@ using System.Windows.Shapes;
 using System.Drawing;
 using System.IO;
 using System.Diagnostics;
+using System.Windows.Threading;
 
 namespace TouchFramework
 {
@@ -168,14 +169,16 @@ namespace TouchFramework
             objTransGroup.Children.Add(objScaleTrans);
             objTransGroup.Children.Add(objTranslateTrans);
 
-            objRotateTrans.Angle = angle;
             objTranslateTrans.X = offsetX - (WorkingObject.Width / 2);
             objTranslateTrans.Y = offsetY - (WorkingObject.Height / 2);
+
+            objRotateTrans.Angle = angle;
             objScaleTrans.ScaleX = scale;
             objScaleTrans.ScaleY = scale;
 
             transforms = new TransformGroup();
             transforms = objTransGroup;
+
             //WorkingObject.RenderTransformOrigin = new System.Windows.Point(0.867, 0.818);
             WorkingObject.RenderTransformOrigin = new System.Windows.Point(0.5, 0.5);
             WorkingObject.RenderTransform = transforms;

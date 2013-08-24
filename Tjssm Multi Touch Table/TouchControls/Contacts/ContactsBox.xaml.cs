@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -22,9 +23,9 @@ namespace TouchFramework.ControlHandlers.Contacts
     /// </summary>
     public partial class ContactsBox : UserControl
     {
-        ArrayList list = new ArrayList();
-        List<ContactsObject> contactsObjList = new List<ContactsObject>();
-        ContactsObject contactsObj;
+        public ArrayList list = new ArrayList();
+        public List<ContactsObject> contactsObjList = new List<ContactsObject>();
+        public ContactsObject contactsObj;
 
         public string userIP = "";
 
@@ -36,7 +37,9 @@ namespace TouchFramework.ControlHandlers.Contacts
         public double thisAngle;
 
         public bool IsSelecting = false;
-        int itemState = 0;
+        public int itemState = 0;
+
+        Thread t;
 
         public ContactsBox()
         {
@@ -52,14 +55,12 @@ namespace TouchFramework.ControlHandlers.Contacts
             thisAngle = angle;
             userIP = _ip;
 
-            Jobs.Instance.call_requestContacts(_ip);
-            setList(Jobs.Instance.getList());
+            t = new Thread(new ThreadStart(thread_recv));
+            t.Start();
         }
 
-        public void setList(ArrayList conList)
+        public void setList()
         {
-            list = conList;
-
             foreach (ContactInfo c in list)
             {
                 ContactsObject con = new ContactsObject(window, main, c);
@@ -68,7 +69,16 @@ namespace TouchFramework.ControlHandlers.Contacts
             ContactslistBox.ItemsSource = contactsObjList;
         }
 
-        private void mode_bt_close_Click(object sender, RoutedEventArgs e)
+        public void thread_recv()
+        {
+            Jobs.Instance.call_requestContacts(userIP);
+            list = Jobs.Instance.getList();
+            setList();
+
+            t.Abort();
+        }
+
+        public void bt_close_Click()
         {
             main.Children.Remove(this);
             framework.UnregisterElement(thisCont.Id);
@@ -83,6 +93,7 @@ namespace TouchFramework.ControlHandlers.Contacts
             IsSelecting = true;
 
             contactsObj = new ContactsObject(window, main, obj.contacts);
+            Canvas.SetZIndex(contactsObj, 100000);
             main.Children.Add(contactsObj);
 
             contactsObj.setPosition(globalPt, thisAngle + thisCont.RotateFilter.Target);
@@ -109,7 +120,7 @@ namespace TouchFramework.ControlHandlers.Contacts
             }
         }
 
-        public void Item_TouchUp(PointF p)
+        public void Item_TouchUp(PointF p, string ipAddress)
         {
             //절대 좌표로 변경
             PointF globalPt = new PointF(thisCont.ObjectTouches.MoveCenter.X, thisCont.ObjectTouches.MoveCenter.Y);
@@ -119,18 +130,28 @@ namespace TouchFramework.ControlHandlers.Contacts
                 IsSelecting = false;
                 main.Children.Remove(contactsObj);
 
-                if (itemState == 1)
+                if (itemState == 1) //연락처 전송
                 {
-                    
+                    contactsObj.sendContact(ipAddress);
                 }
                 else if (itemState == 2)
                 {
-
                 }
                 else
                 {
                     ContactsObject cObj = new ContactsObject(window, main, contactsObj.contacts);
+                    
+                    ElementProperties cObjProp = new ElementProperties();
+                    cObjProp.ElementSupport.AddSupportForAll();
+
+                    MTSmoothContainer cObjCont = new MTSmoothContainer(cObj, main, cObjProp);
+                    framework.RegisterElement(cObjCont);
+
+                    cObj.setInit(framework, cObjCont);
+                    
                     main.Children.Add(cObj);
+
+                    cObjCont.SetPosition(globalPt.X, globalPt.Y, thisAngle + thisCont.RotateFilter.Target, 1.0);
                 }
             }
         }

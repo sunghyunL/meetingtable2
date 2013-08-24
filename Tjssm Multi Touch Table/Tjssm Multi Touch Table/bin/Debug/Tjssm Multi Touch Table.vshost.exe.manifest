@@ -110,19 +110,19 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>JpLnRymsfcQVvhzs2Wf9p4Oh/fR59DfPvmapTAn26sY=</dsig:DigestValue>
+        <dsig:DigestValue>PHK6DFEilTFFmuAPOTeoKHOqrQUJD3Bz/gNr1zmPxOQ=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TouchControls.dll" size="2163200">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TouchControls.dll" size="2264064">
       <assemblyIdentity name="TouchControls" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>neSYEmlIQd3yFvdKzx0ztwk9IRs1ZVtvPDbj1L5ZYXI=</dsig:DigestValue>
+        <dsig:DigestValue>FvY+VOv74VevWb1Yxz1JHhish8NCEfTX38oehv2O39E=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -134,7 +134,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>Oih+GcElEmj1G+SmkE61QQUk0RqJ9qXZU2f4evVEZew=</dsig:DigestValue>
+        <dsig:DigestValue>IVEbV7xd6F/2sELkpLU0C7/29j1nXzIkQ+oK+bffiEE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -146,7 +146,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>LxqXQw5FnD26VSQqJ3QwvNyiI86W7aRL2StW+hyuJhY=</dsig:DigestValue>
+        <dsig:DigestValue>bD32iar7wzIUHnRBNi9yZUT16IAbCpzBy/htxSDNpgA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -164,13 +164,13 @@
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WPFMitsuControls.dll" size="36352">
-      <assemblyIdentity name="WPFMitsuControls" version="1.0.4983.18017" language="neutral" processorArchitecture="msil" />
+      <assemblyIdentity name="WPFMitsuControls" version="1.0.4964.16127" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>tUhLd5Sxsn8cLXBnyVLGbKKlam0CGtONrDAlyldvBPY=</dsig:DigestValue>
+        <dsig:DigestValue>tSiVotl2TTiI/ktUHD0SKW6UdzdD9clbht22nvotGiA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

@@ -7,8 +7,3 @@ C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\TouchHelpers\bin\Debug\To
 C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\TouchHelpers\obj\Debug\TouchHelpers.csprojResolveAssemblyReference.cache
 C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\TouchHelpers\obj\Debug\TouchHelpers.dll
 C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\TouchHelpers\obj\Debug\TouchHelpers.pdb
-C:\Git\Tjssm Multi Touch Table\TouchHelpers\bin\Debug\TouchHelpers.dll
-C:\Git\Tjssm Multi Touch Table\TouchHelpers\bin\Debug\TouchHelpers.pdb
-C:\Git\Tjssm Multi Touch Table\TouchHelpers\obj\Debug\TouchHelpers.csprojResolveAssemblyReference.cache
-C:\Git\Tjssm Multi Touch Table\TouchHelpers\obj\Debug\TouchHelpers.dll
-C:\Git\Tjssm Multi Touch Table\TouchHelpers\obj\Debug\TouchHelpers.pdb

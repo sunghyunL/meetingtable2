@@ -29,9 +29,14 @@ namespace TouchFramework.ControlHandlers.Contacts
         public Canvas main;
         public ContactInfo contacts;
 
+        FrameworkControl framework = null;
+        public MTSmoothContainer thisCont = null;
+
         public ContactsObject(Window target, Canvas _main, ContactInfo _contacts)
         {
             contacts = _contacts;
+            window = target;
+            main = _main;
 
             InitializeComponent();
 
@@ -40,6 +45,13 @@ namespace TouchFramework.ControlHandlers.Contacts
 
             objTransGroup.Children.Add(objRotateTrans);
             objTransGroup.Children.Add(objTranslateTrans);
+        }
+
+        public void setInit(FrameworkControl fw, MTSmoothContainer cont)
+        {
+            framework = fw;
+            thisCont = cont;
+            bt_close.Visibility = Visibility.Visible;
         }
 
         public void setPosition(PointF _pos, double _rotate)
@@ -51,6 +63,18 @@ namespace TouchFramework.ControlHandlers.Contacts
             objTranslateTrans.Y = _pos.Y - (objCon.Height / 2);
 
             objCon.RenderTransform = objTransGroup;
+        }
+
+        public void bt_close_Click()
+        {
+            main.Children.Remove(this);
+            framework.UnregisterElement(thisCont.Id);
+            thisCont.isRemoved = true;
+        }
+
+        public void sendContact(string ipAddress)
+        {
+            Console.WriteLine("sendContact : " + ipAddress + "  Name : " + contacts.getName());
         }
     }
 }
