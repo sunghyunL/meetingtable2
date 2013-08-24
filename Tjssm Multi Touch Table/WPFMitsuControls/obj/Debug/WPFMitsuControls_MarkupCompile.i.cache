@@ -4,7 +4,7 @@
 library
 C#
 .cs
-C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\WPFMitsuControls\obj\Debug\
+C:\Users\Administrator\Desktop\Documents\meetingtable2\Tjssm Multi Touch Table\WPFMitsuControls\obj\Debug\
 WPFMitsuControls
 none
 false
@@ -16,5 +16,5 @@ DEBUG;TRACE
 15-302131575
 Book.xaml;BookPage.xaml;
 
-False
+True
 
