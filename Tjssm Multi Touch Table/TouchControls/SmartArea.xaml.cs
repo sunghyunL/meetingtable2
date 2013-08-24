@@ -18,6 +18,7 @@ using TouchFramework;
 using TouchFramework.Tracking;
 using TouchFramework.Events;
 using TouchFramework.ControlHandlers;
+using TouchFramework.ControlHandlers.Contacts;
 
 namespace TouchFramework.ControlHandlers
 {
@@ -42,14 +43,22 @@ namespace TouchFramework.ControlHandlers
         private PointF FirstPoint, SecondPoint, pos, realPos, translate;
         private double FirstAngle;
         private bool IsRotating = false;
-        private bool isCreated = false;
+        private bool isConnectMode = false;
 
-        //Touch FrameWork
-        FrameworkControl framework = null;
+        //PhoneMenu Class
         phoneMenu pMenu = new phoneMenu();
         MTSmoothContainer pMenuCont;
         ElementProperties pMenuProp = new ElementProperties();
 
+        //Contacts Class
+        ContactsBox cBox = new ContactsBox();
+        MTSmoothContainer cBoxCont;
+        ElementProperties cBoxProp = new ElementProperties();
+
+        //Touch FrameWork
+        FrameworkControl framework = null;
+        MTSmoothContainer thisCont;
+        
         public Window window;
         public Canvas main;
 
@@ -74,42 +83,66 @@ namespace TouchFramework.ControlHandlers
             bt4.Click += bt4_Click;
         }
 
-        public void setInit(Canvas _main, Window target, FrameworkControl fw, string _ip)
+        public void setInit(Canvas _main, Window target, FrameworkControl fw, MTSmoothContainer cont, string _ip, double angle)
         {
             main = _main;
             window = target;
             framework = fw;
+            thisCont = cont;
             userIP = _ip;
+            gridRotateTrans.Angle = angle;
         }
 
         void bt1_Click(object sender, RoutedEventArgs e)
         {
-            if (isCreated == false)
+            if (!(main.Children.Contains(pMenu)))
             {
+                PointF globalPt = new PointF(thisCont.ObjectTouches.MoveCenter.X, thisCont.ObjectTouches.MoveCenter.Y);
+                pMenu = new phoneMenu();
+
                 main.Children.Add(pMenu);
 
                 pMenuProp.ElementSupport.AddSupportForAll();
 
                 pMenuCont = new MTSmoothContainer(pMenu, main, pMenuProp);
 
-                pMenuCont.SetPosition(translate.X + (float)objTranslateTrans.X, translate.Y + (float)objTranslateTrans.Y, gridRotateTrans.Angle, 1.0);
+                pMenuCont.SetPosition(globalPt.X, globalPt.Y, gridRotateTrans.Angle, 1.0);
                 framework.RegisterElement(pMenuCont);
 
                 pMenu.setInit(main, window, framework, pMenuCont, gridRotateTrans.Angle, userIP);
-                isCreated = true;
             }
             else
             {
                 main.Children.Remove(pMenu);
                 framework.UnregisterElement(pMenuCont.Id);
                 pMenuCont.isRemoved = true;
-                isCreated = false;
             }
         }
 
         void bt2_Click(object sender, RoutedEventArgs e)
         {
-            Debug.WriteLine("bt2");
+            if (!(main.Children.Contains(cBox)))
+            {
+                PointF globalPt = new PointF(thisCont.ObjectTouches.MoveCenter.X, thisCont.ObjectTouches.MoveCenter.Y);
+                cBox = new ContactsBox();
+
+                main.Children.Add(cBox);
+
+                cBoxProp.ElementSupport.AddSupportForAll();
+
+                cBoxCont = new MTSmoothContainer(cBox, main, cBoxProp);
+
+                cBoxCont.SetPosition(globalPt.X, globalPt.Y, gridRotateTrans.Angle, 1.0);
+                framework.RegisterElement(cBoxCont);
+
+                cBox.setInit(main, window, framework, cBoxCont, gridRotateTrans.Angle, userIP);
+            }
+            else
+            {
+                main.Children.Remove(cBox);
+                framework.UnregisterElement(cBoxCont.Id);
+                cBoxCont.isRemoved = true;
+            }
         }
 
         void bt3_Click(object sender, RoutedEventArgs e)
@@ -121,6 +154,17 @@ namespace TouchFramework.ControlHandlers
 
         void bt4_Click(object sender, RoutedEventArgs e)
         {
+            if (isConnectMode == true)
+            {
+                isConnectMode = false;
+                image_Effect.Visibility = Visibility.Hidden;
+            }
+            else
+            {
+                isConnectMode = true;
+                image_Effect.Visibility = Visibility.Visible;
+            }
+
             Debug.WriteLine("bt4");
         }
 

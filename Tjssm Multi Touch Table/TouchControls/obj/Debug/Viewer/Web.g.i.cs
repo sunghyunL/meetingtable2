@@ -9,6 +9,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+using Awesomium.Windows.Controls;
 using System;
 using System.Diagnostics;
 using System.Windows;

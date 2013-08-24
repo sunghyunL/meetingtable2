@@ -7,7 +7,8 @@
              d:DesignHeight="300" d:DesignWidth="300" Width="600" Height="600" RenderTransformOrigin="0.5,0.5">
     <Canvas x:Name="canvas1" Height="600" RenderTransformOrigin="0.5,0.5" Width="600">
         <Rectangle Fill="Black" HorizontalAlignment="Left" Height="600" Stroke="Black" VerticalAlignment="Top" Width="600" Opacity="0"/>
-        <Image x:Name="image1" Height="600" Width="600" RenderTransformOrigin="0.5,0.5" Source="Resources/smart_area1.png" Canvas.Left="0" Canvas.Top="0" Panel.ZIndex="5"/>
+        <Image x:Name="image_Effect" Height="600" Width="600" RenderTransformOrigin="0.5,0.5" Source="Resources/smart_area_effect.png" Canvas.Top="0" Panel.ZIndex="5" Visibility="Hidden"/>
+        <Image x:Name="image1" Height="600" Width="600" RenderTransformOrigin="0.5,0.5" Source="Resources/smart_area1.png" Canvas.Left="-10" Canvas.Top="0" Panel.ZIndex="5"/>
         <Grid x:Name="grid1" Height="600" Width="600" RenderTransformOrigin="0.5,0.5" Panel.ZIndex="5">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition/>
