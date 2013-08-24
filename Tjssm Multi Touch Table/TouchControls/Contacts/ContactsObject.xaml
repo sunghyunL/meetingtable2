@@ -1,0 +1,15 @@
+﻿<UserControl x:Name="objCon" x:Class="TouchFramework.ControlHandlers.Contacts.ContactsObject"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" Height="84" Width="311">
+    <Grid>
+        <Image x:Name="bt_contactsObj" HorizontalAlignment="Center" Height="67" VerticalAlignment="Center" Width="301" Source="/TouchControls;component/Resources/ContactsObject.png"/>
+        <Button x:Name="bt_img" Content="Button" HorizontalAlignment="Left" Height="64" Margin="10,10,0,0" VerticalAlignment="Top" Width="71" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" Opacity="0"/>
+        <TextBlock x:Name="TextName" HorizontalAlignment="Center" Height="29" Margin="91,16.5,10,38.5" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Center" Width="210" FontSize="20" Foreground="#FF3C3C3C"/>
+        <TextBlock x:Name="TextNumber" HorizontalAlignment="Center" Height="20" Margin="91,45.5,10,18.5" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Center" Width="210" Foreground="#FF878585" FontSize="14"/>
+        <Image x:Name="img_send" HorizontalAlignment="Left" Height="49" Margin="274,45.5,-21,-10.5" VerticalAlignment="Top" Width="58" Source="/TouchControls;component/Resources/Icon_send.png" Visibility="Hidden"/>
+    </Grid>
+    
+</UserControl>

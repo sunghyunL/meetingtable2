@@ -1,0 +1,25 @@
+C:\Users\Administrator\Desktop\breeze_1.0.5\BreezeWPF_1.0.5\ProjectionExample\bin\Debug\ProjectionExample.exe
+C:\Users\Administrator\Desktop\breeze_1.0.5\BreezeWPF_1.0.5\ProjectionExample\bin\Debug\ProjectionExample.pdb
+C:\Users\Administrator\Desktop\breeze_1.0.5\BreezeWPF_1.0.5\ProjectionExample\obj\Debug\ProjectionExample.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\breeze_1.0.5\BreezeWPF_1.0.5\ProjectionExample\obj\Debug\Window1.baml
+C:\Users\Administrator\Desktop\breeze_1.0.5\BreezeWPF_1.0.5\ProjectionExample\obj\Debug\Window1.g.cs
+C:\Users\Administrator\Desktop\breeze_1.0.5\BreezeWPF_1.0.5\ProjectionExample\obj\Debug\App.g.cs
+C:\Users\Administrator\Desktop\breeze_1.0.5\BreezeWPF_1.0.5\ProjectionExample\obj\Debug\ProjectionExample_MarkupCompile.cache
+C:\Users\Administrator\Desktop\breeze_1.0.5\BreezeWPF_1.0.5\ProjectionExample\obj\Debug\ProjectionExample.g.resources
+C:\Users\Administrator\Desktop\breeze_1.0.5\BreezeWPF_1.0.5\ProjectionExample\obj\Debug\ProjectionExample.Properties.Resources.resources
+C:\Users\Administrator\Desktop\breeze_1.0.5\BreezeWPF_1.0.5\ProjectionExample\obj\Debug\ProjectionExample.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\breeze_1.0.5\BreezeWPF_1.0.5\ProjectionExample\obj\Debug\ProjectionExample.exe
+C:\Users\Administrator\Desktop\breeze_1.0.5\BreezeWPF_1.0.5\ProjectionExample\obj\Debug\ProjectionExample.pdb
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\ProjectionExample\bin\Debug\ProjectionExample.exe.config
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\ProjectionExample\bin\Debug\ProjectionExample.exe
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\ProjectionExample\bin\Debug\ProjectionExample.pdb
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\ProjectionExample\obj\Debug\ProjectionExample.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\ProjectionExample\obj\Debug\Window1.baml
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\ProjectionExample\obj\Debug\Window1.g.cs
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\ProjectionExample\obj\Debug\App.g.cs
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\ProjectionExample\obj\Debug\ProjectionExample_MarkupCompile.cache
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\ProjectionExample\obj\Debug\ProjectionExample.g.resources
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\ProjectionExample\obj\Debug\ProjectionExample.Properties.Resources.resources
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\ProjectionExample\obj\Debug\ProjectionExample.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\ProjectionExample\obj\Debug\ProjectionExample.exe
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\ProjectionExample\obj\Debug\ProjectionExample.pdb

@@ -1,0 +1,42 @@
+C:\Users\Administrator\Desktop\breeze_1.0.5\BreezeWPF_1.0.5\TouchFramework\bin\Debug\TouchFramework.dll
+C:\Users\Administrator\Desktop\breeze_1.0.5\BreezeWPF_1.0.5\TouchFramework\bin\Debug\TouchFramework.pdb
+C:\Users\Administrator\Desktop\breeze_1.0.5\BreezeWPF_1.0.5\TouchFramework\bin\Debug\TouchControls.dll
+C:\Users\Administrator\Desktop\breeze_1.0.5\BreezeWPF_1.0.5\TouchFramework\bin\Debug\TouchHelpers.dll
+C:\Users\Administrator\Desktop\breeze_1.0.5\BreezeWPF_1.0.5\TouchFramework\bin\Debug\WPFMitsuControls.dll
+C:\Users\Administrator\Desktop\breeze_1.0.5\BreezeWPF_1.0.5\TouchFramework\bin\Debug\TouchControls.pdb
+C:\Users\Administrator\Desktop\breeze_1.0.5\BreezeWPF_1.0.5\TouchFramework\bin\Debug\TouchHelpers.pdb
+C:\Users\Administrator\Desktop\breeze_1.0.5\BreezeWPF_1.0.5\TouchFramework\bin\Debug\WPFMitsuControls.pdb
+C:\Users\Administrator\Desktop\breeze_1.0.5\BreezeWPF_1.0.5\TouchFramework\obj\Debug\TouchFramework.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\breeze_1.0.5\BreezeWPF_1.0.5\TouchFramework\obj\Debug\TouchFramework.g.resources
+C:\Users\Administrator\Desktop\breeze_1.0.5\BreezeWPF_1.0.5\TouchFramework\obj\Debug\TouchFramework.Properties.Resources.resources
+C:\Users\Administrator\Desktop\breeze_1.0.5\BreezeWPF_1.0.5\TouchFramework\obj\Debug\TouchFramework.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\breeze_1.0.5\BreezeWPF_1.0.5\TouchFramework\obj\Debug\TouchFramework.dll
+C:\Users\Administrator\Desktop\breeze_1.0.5\BreezeWPF_1.0.5\TouchFramework\obj\Debug\TouchFramework.pdb
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\TouchFramework\bin\Debug\TouchFramework.dll
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\TouchFramework\bin\Debug\TouchFramework.pdb
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\TouchFramework\bin\Debug\TouchControls.dll
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\TouchFramework\bin\Debug\TouchHelpers.dll
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\TouchFramework\bin\Debug\WPFMitsuControls.dll
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\TouchFramework\bin\Debug\TouchControls.pdb
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\TouchFramework\bin\Debug\TouchHelpers.pdb
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\TouchFramework\bin\Debug\WPFMitsuControls.pdb
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\TouchFramework\obj\Debug\TouchFramework.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\TouchFramework\obj\Debug\TouchFramework.g.resources
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\TouchFramework\obj\Debug\TouchFramework.Properties.Resources.resources
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\TouchFramework\obj\Debug\TouchFramework.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\TouchFramework\obj\Debug\TouchFramework.dll
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\TouchFramework\obj\Debug\TouchFramework.pdb
+C:\Git\Tjssm Multi Touch Table\TouchFramework\bin\Debug\TouchFramework.dll
+C:\Git\Tjssm Multi Touch Table\TouchFramework\bin\Debug\TouchFramework.pdb
+C:\Git\Tjssm Multi Touch Table\TouchFramework\bin\Debug\TouchControls.dll
+C:\Git\Tjssm Multi Touch Table\TouchFramework\bin\Debug\TouchHelpers.dll
+C:\Git\Tjssm Multi Touch Table\TouchFramework\bin\Debug\WPFMitsuControls.dll
+C:\Git\Tjssm Multi Touch Table\TouchFramework\bin\Debug\TouchControls.pdb
+C:\Git\Tjssm Multi Touch Table\TouchFramework\bin\Debug\TouchHelpers.pdb
+C:\Git\Tjssm Multi Touch Table\TouchFramework\bin\Debug\WPFMitsuControls.pdb
+C:\Git\Tjssm Multi Touch Table\TouchFramework\obj\Debug\TouchFramework.csprojResolveAssemblyReference.cache
+C:\Git\Tjssm Multi Touch Table\TouchFramework\obj\Debug\TouchFramework.g.resources
+C:\Git\Tjssm Multi Touch Table\TouchFramework\obj\Debug\TouchFramework.Properties.Resources.resources
+C:\Git\Tjssm Multi Touch Table\TouchFramework\obj\Debug\TouchFramework.csproj.GenerateResource.Cache
+C:\Git\Tjssm Multi Touch Table\TouchFramework\obj\Debug\TouchFramework.dll
+C:\Git\Tjssm Multi Touch Table\TouchFramework\obj\Debug\TouchFramework.pdb

@@ -1,0 +1,115 @@
+C:\Users\Administrator\Desktop\breeze_1.0.5\BreezeWPF_1.0.5\TouchControls\bin\Debug\TouchControls.dll
+C:\Users\Administrator\Desktop\breeze_1.0.5\BreezeWPF_1.0.5\TouchControls\bin\Debug\TouchControls.pdb
+C:\Users\Administrator\Desktop\breeze_1.0.5\BreezeWPF_1.0.5\TouchControls\bin\Debug\TouchHelpers.dll
+C:\Users\Administrator\Desktop\breeze_1.0.5\BreezeWPF_1.0.5\TouchControls\bin\Debug\WPFMitsuControls.dll
+C:\Users\Administrator\Desktop\breeze_1.0.5\BreezeWPF_1.0.5\TouchControls\bin\Debug\TouchHelpers.pdb
+C:\Users\Administrator\Desktop\breeze_1.0.5\BreezeWPF_1.0.5\TouchControls\bin\Debug\WPFMitsuControls.pdb
+C:\Users\Administrator\Desktop\breeze_1.0.5\BreezeWPF_1.0.5\TouchControls\obj\Debug\TouchControls.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\breeze_1.0.5\BreezeWPF_1.0.5\TouchControls\obj\Debug\Photo.baml
+C:\Users\Administrator\Desktop\breeze_1.0.5\BreezeWPF_1.0.5\TouchControls\obj\Debug\RssList.baml
+C:\Users\Administrator\Desktop\breeze_1.0.5\BreezeWPF_1.0.5\TouchControls\obj\Debug\VideoControl.baml
+C:\Users\Administrator\Desktop\breeze_1.0.5\BreezeWPF_1.0.5\TouchControls\obj\Debug\Photo.g.cs
+C:\Users\Administrator\Desktop\breeze_1.0.5\BreezeWPF_1.0.5\TouchControls\obj\Debug\RssList.g.cs
+C:\Users\Administrator\Desktop\breeze_1.0.5\BreezeWPF_1.0.5\TouchControls\obj\Debug\VideoControl.g.cs
+C:\Users\Administrator\Desktop\breeze_1.0.5\BreezeWPF_1.0.5\TouchControls\obj\Debug\TouchControls_MarkupCompile.cache
+C:\Users\Administrator\Desktop\breeze_1.0.5\BreezeWPF_1.0.5\TouchControls\obj\Debug\TouchControls.g.resources
+C:\Users\Administrator\Desktop\breeze_1.0.5\BreezeWPF_1.0.5\TouchControls\obj\Debug\TouchControls.dll
+C:\Users\Administrator\Desktop\breeze_1.0.5\BreezeWPF_1.0.5\TouchControls\obj\Debug\TouchControls.pdb
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\TouchControls\bin\Debug\TouchControls.dll
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\TouchControls\bin\Debug\TouchControls.pdb
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\TouchControls\bin\Debug\TouchHelpers.dll
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\TouchControls\bin\Debug\WPFMitsuControls.dll
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\TouchControls\bin\Debug\TouchHelpers.pdb
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\TouchControls\bin\Debug\WPFMitsuControls.pdb
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\TouchControls\obj\Debug\TouchControls.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\TouchControls\obj\Debug\Photo.baml
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\TouchControls\obj\Debug\RssList.baml
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\TouchControls\obj\Debug\VideoControl.baml
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\TouchControls\obj\Debug\Photo.g.cs
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\TouchControls\obj\Debug\RssList.g.cs
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\TouchControls\obj\Debug\VideoControl.g.cs
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\TouchControls\obj\Debug\TouchControls_MarkupCompile.cache
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\TouchControls\obj\Debug\TouchControls.g.resources
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\TouchControls\obj\Debug\TouchControls.dll
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\TouchControls\obj\Debug\TouchControls.pdb
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\TouchControls\obj\Debug\TouchControls.csproj.ResolveComReference.cache
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\TouchControls\obj\Debug\FileBoxObject.baml
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\TouchControls\obj\Debug\PhoneMenu.baml
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\TouchControls\obj\Debug\SmartArea.baml
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\TouchControls\obj\Debug\FileBoxObject.g.cs
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\TouchControls\obj\Debug\PhoneMenu.g.cs
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\TouchControls\obj\Debug\SmartArea.g.cs
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\TouchControls\bin\Debug\TouchFramework.dll
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\TouchControls\bin\Debug\TouchFrameworkTracking.dll
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\TouchControls\bin\Debug\Mindstorm.Tracking.dll
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\TouchControls\bin\Debug\TouchFramework.pdb
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\TouchControls\bin\Debug\TouchFrameworkTracking.pdb
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\TouchControls\obj\Debug\FileBox3.baml
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\TouchControls\obj\Debug\FileBox3.g.cs
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\TouchControls\obj\Debug\FileBoxItem.baml
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\TouchControls\obj\Debug\FileBoxItem.g.cs
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\TouchControls\obj\Debug\VideoPlayer.baml
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\TouchControls\obj\Debug\VideoPlayer.g.cs
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\TouchControls\obj\Debug\bg_menu.baml
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\TouchControls\obj\Debug\bg_menu.g.cs
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\TouchControls\obj\Debug\Viewer\DocViewer.baml
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\TouchControls\obj\Debug\Viewer\ImageView.baml
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\TouchControls\obj\Debug\Viewer\PptViewer.baml
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\TouchControls\obj\Debug\Viewer\Web.baml
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\TouchControls\obj\Debug\Viewer\DocViewer.g.cs
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\TouchControls\obj\Debug\Viewer\ImageView.g.cs
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\TouchControls\obj\Debug\Viewer\PptViewer.g.cs
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\TouchControls\obj\Debug\Viewer\Web.g.cs
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\TouchControls\obj\Debug\Contacts\ContactsBox.baml
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\TouchControls\obj\Debug\Contacts\ContactsObject.baml
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\TouchControls\obj\Debug\Contacts\ContactsBox.g.cs
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\TouchControls\obj\Debug\Contacts\ContactsObject.g.cs
+C:\Git\Tjssm Multi Touch Table\TouchControls\bin\Debug\TouchControls.dll
+C:\Git\Tjssm Multi Touch Table\TouchControls\bin\Debug\TouchControls.pdb
+C:\Git\Tjssm Multi Touch Table\TouchControls\bin\Debug\TouchFramework.dll
+C:\Git\Tjssm Multi Touch Table\TouchControls\bin\Debug\TouchFrameworkTracking.dll
+C:\Git\Tjssm Multi Touch Table\TouchControls\bin\Debug\TouchHelpers.dll
+C:\Git\Tjssm Multi Touch Table\TouchControls\bin\Debug\WPFMitsuControls.dll
+C:\Git\Tjssm Multi Touch Table\TouchControls\bin\Debug\Mindstorm.Tracking.dll
+C:\Git\Tjssm Multi Touch Table\TouchControls\bin\Debug\TouchHelpers.pdb
+C:\Git\Tjssm Multi Touch Table\TouchControls\bin\Debug\WPFMitsuControls.pdb
+C:\Git\Tjssm Multi Touch Table\TouchControls\bin\Debug\TouchFramework.pdb
+C:\Git\Tjssm Multi Touch Table\TouchControls\bin\Debug\TouchFrameworkTracking.pdb
+C:\Git\Tjssm Multi Touch Table\TouchControls\obj\Debug\TouchControls.csprojResolveAssemblyReference.cache
+C:\Git\Tjssm Multi Touch Table\TouchControls\obj\Debug\TouchControls.csproj.ResolveComReference.cache
+C:\Git\Tjssm Multi Touch Table\TouchControls\obj\Debug\bg_menu.baml
+C:\Git\Tjssm Multi Touch Table\TouchControls\obj\Debug\Contacts\ContactsBox.baml
+C:\Git\Tjssm Multi Touch Table\TouchControls\obj\Debug\Contacts\ContactsObject.baml
+C:\Git\Tjssm Multi Touch Table\TouchControls\obj\Debug\Viewer\DocViewer.baml
+C:\Git\Tjssm Multi Touch Table\TouchControls\obj\Debug\FileBox3.baml
+C:\Git\Tjssm Multi Touch Table\TouchControls\obj\Debug\FileBoxItem.baml
+C:\Git\Tjssm Multi Touch Table\TouchControls\obj\Debug\FileBoxObject.baml
+C:\Git\Tjssm Multi Touch Table\TouchControls\obj\Debug\Viewer\ImageView.baml
+C:\Git\Tjssm Multi Touch Table\TouchControls\obj\Debug\PhoneMenu.baml
+C:\Git\Tjssm Multi Touch Table\TouchControls\obj\Debug\Photo.baml
+C:\Git\Tjssm Multi Touch Table\TouchControls\obj\Debug\Viewer\PptViewer.baml
+C:\Git\Tjssm Multi Touch Table\TouchControls\obj\Debug\RssList.baml
+C:\Git\Tjssm Multi Touch Table\TouchControls\obj\Debug\SmartArea.baml
+C:\Git\Tjssm Multi Touch Table\TouchControls\obj\Debug\VideoControl.baml
+C:\Git\Tjssm Multi Touch Table\TouchControls\obj\Debug\VideoPlayer.baml
+C:\Git\Tjssm Multi Touch Table\TouchControls\obj\Debug\Viewer\Web.baml
+C:\Git\Tjssm Multi Touch Table\TouchControls\obj\Debug\bg_menu.g.cs
+C:\Git\Tjssm Multi Touch Table\TouchControls\obj\Debug\Contacts\ContactsBox.g.cs
+C:\Git\Tjssm Multi Touch Table\TouchControls\obj\Debug\Contacts\ContactsObject.g.cs
+C:\Git\Tjssm Multi Touch Table\TouchControls\obj\Debug\Viewer\DocViewer.g.cs
+C:\Git\Tjssm Multi Touch Table\TouchControls\obj\Debug\FileBox3.g.cs
+C:\Git\Tjssm Multi Touch Table\TouchControls\obj\Debug\FileBoxItem.g.cs
+C:\Git\Tjssm Multi Touch Table\TouchControls\obj\Debug\FileBoxObject.g.cs
+C:\Git\Tjssm Multi Touch Table\TouchControls\obj\Debug\Viewer\ImageView.g.cs
+C:\Git\Tjssm Multi Touch Table\TouchControls\obj\Debug\PhoneMenu.g.cs
+C:\Git\Tjssm Multi Touch Table\TouchControls\obj\Debug\Photo.g.cs
+C:\Git\Tjssm Multi Touch Table\TouchControls\obj\Debug\Viewer\PptViewer.g.cs
+C:\Git\Tjssm Multi Touch Table\TouchControls\obj\Debug\RssList.g.cs
+C:\Git\Tjssm Multi Touch Table\TouchControls\obj\Debug\SmartArea.g.cs
+C:\Git\Tjssm Multi Touch Table\TouchControls\obj\Debug\VideoControl.g.cs
+C:\Git\Tjssm Multi Touch Table\TouchControls\obj\Debug\VideoPlayer.g.cs
+C:\Git\Tjssm Multi Touch Table\TouchControls\obj\Debug\Viewer\Web.g.cs
+C:\Git\Tjssm Multi Touch Table\TouchControls\obj\Debug\TouchControls_MarkupCompile.cache
+C:\Git\Tjssm Multi Touch Table\TouchControls\obj\Debug\TouchControls.g.resources
+C:\Git\Tjssm Multi Touch Table\TouchControls\obj\Debug\TouchControls.dll
+C:\Git\Tjssm Multi Touch Table\TouchControls\obj\Debug\TouchControls.pdb

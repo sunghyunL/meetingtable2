@@ -1,0 +1,42 @@
+C:\Users\Administrator\Desktop\breeze_1.0.5\BreezeWPF_1.0.5\TouchFrameworkTracking\bin\Debug\TouchFrameworkTracking.dll
+C:\Users\Administrator\Desktop\breeze_1.0.5\BreezeWPF_1.0.5\TouchFrameworkTracking\bin\Debug\TouchFrameworkTracking.pdb
+C:\Users\Administrator\Desktop\breeze_1.0.5\BreezeWPF_1.0.5\TouchFrameworkTracking\bin\Debug\Mindstorm.Tracking.dll
+C:\Users\Administrator\Desktop\breeze_1.0.5\BreezeWPF_1.0.5\TouchFrameworkTracking\bin\Debug\TouchFramework.dll
+C:\Users\Administrator\Desktop\breeze_1.0.5\BreezeWPF_1.0.5\TouchFrameworkTracking\bin\Debug\TouchControls.dll
+C:\Users\Administrator\Desktop\breeze_1.0.5\BreezeWPF_1.0.5\TouchFrameworkTracking\bin\Debug\WPFMitsuControls.dll
+C:\Users\Administrator\Desktop\breeze_1.0.5\BreezeWPF_1.0.5\TouchFrameworkTracking\bin\Debug\TouchHelpers.dll
+C:\Users\Administrator\Desktop\breeze_1.0.5\BreezeWPF_1.0.5\TouchFrameworkTracking\bin\Debug\TouchFramework.pdb
+C:\Users\Administrator\Desktop\breeze_1.0.5\BreezeWPF_1.0.5\TouchFrameworkTracking\bin\Debug\TouchControls.pdb
+C:\Users\Administrator\Desktop\breeze_1.0.5\BreezeWPF_1.0.5\TouchFrameworkTracking\bin\Debug\WPFMitsuControls.pdb
+C:\Users\Administrator\Desktop\breeze_1.0.5\BreezeWPF_1.0.5\TouchFrameworkTracking\bin\Debug\TouchHelpers.pdb
+C:\Users\Administrator\Desktop\breeze_1.0.5\BreezeWPF_1.0.5\TouchFrameworkTracking\obj\Debug\TouchFrameworkTracking.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\breeze_1.0.5\BreezeWPF_1.0.5\TouchFrameworkTracking\obj\Debug\TouchFrameworkTracking.dll
+C:\Users\Administrator\Desktop\breeze_1.0.5\BreezeWPF_1.0.5\TouchFrameworkTracking\obj\Debug\TouchFrameworkTracking.pdb
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\TouchFrameworkTracking\bin\Debug\TouchFrameworkTracking.dll
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\TouchFrameworkTracking\bin\Debug\TouchFrameworkTracking.pdb
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\TouchFrameworkTracking\bin\Debug\Mindstorm.Tracking.dll
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\TouchFrameworkTracking\bin\Debug\TouchFramework.dll
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\TouchFrameworkTracking\bin\Debug\TouchControls.dll
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\TouchFrameworkTracking\bin\Debug\WPFMitsuControls.dll
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\TouchFrameworkTracking\bin\Debug\TouchHelpers.dll
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\TouchFrameworkTracking\bin\Debug\TouchFramework.pdb
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\TouchFrameworkTracking\bin\Debug\TouchControls.pdb
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\TouchFrameworkTracking\bin\Debug\WPFMitsuControls.pdb
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\TouchFrameworkTracking\bin\Debug\TouchHelpers.pdb
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\TouchFrameworkTracking\obj\Debug\TouchFrameworkTracking.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\TouchFrameworkTracking\obj\Debug\TouchFrameworkTracking.dll
+C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\TouchFrameworkTracking\obj\Debug\TouchFrameworkTracking.pdb
+C:\Git\Tjssm Multi Touch Table\TouchFrameworkTracking\bin\Debug\TouchFrameworkTracking.dll
+C:\Git\Tjssm Multi Touch Table\TouchFrameworkTracking\bin\Debug\TouchFrameworkTracking.pdb
+C:\Git\Tjssm Multi Touch Table\TouchFrameworkTracking\bin\Debug\Mindstorm.Tracking.dll
+C:\Git\Tjssm Multi Touch Table\TouchFrameworkTracking\bin\Debug\TouchFramework.dll
+C:\Git\Tjssm Multi Touch Table\TouchFrameworkTracking\bin\Debug\TouchControls.dll
+C:\Git\Tjssm Multi Touch Table\TouchFrameworkTracking\bin\Debug\WPFMitsuControls.dll
+C:\Git\Tjssm Multi Touch Table\TouchFrameworkTracking\bin\Debug\TouchHelpers.dll
+C:\Git\Tjssm Multi Touch Table\TouchFrameworkTracking\bin\Debug\TouchFramework.pdb
+C:\Git\Tjssm Multi Touch Table\TouchFrameworkTracking\bin\Debug\TouchControls.pdb
+C:\Git\Tjssm Multi Touch Table\TouchFrameworkTracking\bin\Debug\WPFMitsuControls.pdb
+C:\Git\Tjssm Multi Touch Table\TouchFrameworkTracking\bin\Debug\TouchHelpers.pdb
+C:\Git\Tjssm Multi Touch Table\TouchFrameworkTracking\obj\Debug\TouchFrameworkTracking.csprojResolveAssemblyReference.cache
+C:\Git\Tjssm Multi Touch Table\TouchFrameworkTracking\obj\Debug\TouchFrameworkTracking.dll
+C:\Git\Tjssm Multi Touch Table\TouchFrameworkTracking\obj\Debug\TouchFrameworkTracking.pdb
