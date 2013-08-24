@@ -11,6 +11,7 @@ namespace TouchFramework.ControlHandlers.Client
  
     class QueueObserver
     {
+        Thread t;
         Queue<String> mQueueString = PipeControl.Instance.stringMessageQueue;
         public void fcoordObserver()
         {
@@ -98,8 +99,13 @@ namespace TouchFramework.ControlHandlers.Client
 
         public void observerStart()
         {
-            Thread t=new Thread(new ThreadStart(fcoordObserver));
+            t=new Thread(new ThreadStart(fcoordObserver));
             t.Start();
+        }
+
+        public void observerStop()
+        {
+            t.Abort();
         }
     }
 }

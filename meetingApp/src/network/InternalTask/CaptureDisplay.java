@@ -122,14 +122,13 @@ public class CaptureDisplay extends InternalJob {
 						message.setData(bundle);
 						handler.sendMessage(message);
 						/******************************/
-
 					}
+					bos.close();
 				} catch (Exception e) {
 					e.printStackTrace();
 					activity.finish();
 				}
 			}
-			
 		};
 		thread.start();
 	}

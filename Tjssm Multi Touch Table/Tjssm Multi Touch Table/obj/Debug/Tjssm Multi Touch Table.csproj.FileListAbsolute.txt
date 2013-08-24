@@ -108,3 +108,7 @@ C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\Tjssm Multi Touch Table\o
 C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\Tjssm Multi Touch Table\obj\Debug\Tjssm Multi Touch Table.csproj.GenerateResource.Cache
 C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\Tjssm Multi Touch Table\obj\Debug\Tjssm Multi Touch Table.exe.manifest
 C:\Users\Administrator\Desktop\Tjssm Multi Touch Table\Tjssm Multi Touch Table\obj\Debug\Tjssm Multi Touch Table.application
+C:\Users\Administrator\Desktop\Documents\meetingtable2\Tjssm Multi Touch Table\Tjssm Multi Touch Table\bin\Debug\Tjssm Multi Touch Table.exe.config
+C:\Users\Administrator\Desktop\Documents\meetingtable2\Tjssm Multi Touch Table\Tjssm Multi Touch Table\obj\Debug\Tjssm Multi Touch Table.csproj.ResolveComReference.cache
+C:\Users\Administrator\Desktop\Documents\meetingtable2\Tjssm Multi Touch Table\Tjssm Multi Touch Table\obj\Debug\Tjssm Multi Touch Table.exe
+C:\Users\Administrator\Desktop\Documents\meetingtable2\Tjssm Multi Touch Table\Tjssm Multi Touch Table\obj\Debug\Tjssm Multi Touch Table.pdb
